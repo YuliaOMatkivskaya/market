@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Market</title>
+</head>
+
+<body>
+    <div class="market">
+        <div class="field">
+            <div class="catalog">
+                <div class="item_box">
+                    <h3 class="item_title">Яблоки</h3>
+                    <p>Цена за кг: <span class="item_price">50</span>руб.</p>
+                    <button class="add_item" data-id="1">Добавить в корзину</button>
+                </div>
+                <div class="item_box">
+                    <h3 class="item_title">Груши</h3>
+                    <p>Цена за кг: <span class="item_price">80</span>руб.</p>
+                    <button class="add_item" data-id="2">Добавить в корзину</button>
+                </div>
+                <div class="item_box">
+                    <h3 class="item_title">Апельсины</h3>
+                    <p>Цена за кг: <span class="item_price">100</span>руб.</p>
+                    <button class="add_item" data-id="3">Добавить в корзину</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="checkout">В корзине</button>
+            <button id="clear_cart">Очистить корзину</button>
+        </div>
+        <div id="cart_content"></div>
+    </div>
+
+    <script src="scr.js"></script>
+</body>
+
+</html>
